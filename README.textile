@@ -1,0 +1,115 @@
+h1. Sublime Text 2 - Raccourcis utiles (Windows)
+
+h2. Préambule
+
+Voici une fiche mémo pour vous aider à retenir ces fameux raccourcis qui vont vous permettre de gagner en *productivité*. Prenez votre temps pour apprendre, il est généralement plus bénéfique de mémoriser un raccourci en lui associant une utilité tout en codant, plutôt que d'essayer de  tout retenir d'un seul coup.
+La notation *Ctrl+KB* signifie enfoncer les touches *Ctrl* et *K* simultanément puis relâcher *K*, enfoncer *B* tout en maintenant la touche *Ctrl* enfoncée.
+
+h2. Général
+
+| *Ctrl+KB* | basculer la barre latérale |
+| *Ctrl+Shift+P* | invite de commande |
+| *Ctrl+`* | console python |
+| *F11* | plein écran |
+| *Shift+F11* | mode « sans distraction » |
+
+h2. Fichiers et Fenêtres
+
+| *Ctrl+O* | ouvrir un fichier |
+| *Ctrl+N* | nouveau fichier |
+| *Ctrl+Shift+N* | nouvelle fenêtre |
+| *Ctrl+W* | fermer un fichier |
+| *Ctrl+Shift+W* | fermer une fenêtre |
+| *Ctrl+Shift+T* | ré-ouvrir le dernier fichier fermé |
+| *Ctrl+S* | sauvegarder |
+| *Ctrl+Shift+S* | sauvegarder sous |
+
+h2. Edition
+
+h3. Général
+
+| *Ctrl+C* | copier la ligne ou la sélection|
+| *Ctrl+X*
+*Shift+Delete* | couper la ligne ou la sélection |
+| *Ctrl+V* | coller |
+| *Ctrl+Shift+V* | coller et indenter |
+| *Ctrl+Y* | rétablir ou répéter |
+| *Ctrl+Z* | annuler |
+
+h3. Sélection
+
+| *Ctrl+L* | sélectionne la ligne (répéter pour sélectionner les suivantes) |
+| *Ctrl+D* | sélectionne le mot (répéter pour sélectionner les occurrences suivantes) |
+| *Alt+F3* | sélectionne toutes les occurrences |
+| *Ctrl+Shift+M* | sélectionne le contenu entre  des crochets ou parenthèses (répéter pour incrémenter la sélection) |
+| *Ctrl+Shift+J* | sélectionne le contenu de l'indentation (répéter pour incrémenter la sélection) |
+| *Ctrl+Shift+Space* | sélectionne le contenu à portée (répéter pour incrémenter la sélection) |
+
+h3. Lignes
+
+| *Ctrl+KK* | supprimer du curseur à la fin de la ligne |
+| *Ctrl+K+Backspace*
+*Ctrl+Shift+Backspace* | supprimer du curseur au début de la ligne |
+| *Ctrl+Shift+D* | duplique la ou les lignes |
+| *Ctrl+Shift+[haut,bas]* | inverser les lignes |
+
+h3. Divers
+
+| *Ctrl+ /* | commenter |
+| *Ctrl+Shift+ /* | bloc de commentaire |
+| *Ctrl+KU* | mettre en majuscule |
+| *Ctrl+KL* | mettre en minuscule |
+| *Ctrl+M* | aller à la parenthèse ou au crochet correspondant |
+| *Ctrl+T* | transposer: inverser 2 lettres ou 2 mots (sans sélectionner)|
+
+h2. Navigation
+
+| *Ctrl+P* | Aller n'importe où. Cherche parmi les fichiers de votre projet.  |
+| *Ctrl+R* | Aller à une fonction ou une classe dans le fichier. Équivalent à *Ctrl+P*, suivi de *@*|
+| *Ctrl+;* | Aller à un mot dans le fichier. Équivalent à *Ctrl+P*, suivi de *#*|
+| *Ctrl+G* | Aller à une ligne dans le fichier. Équivalent à *Ctrl+P*, suivi de *:*|
+
+h2. Chercher/Remplacer
+
+h3. Panneau de recherche (Ctrl+F)
+
+| *Alt+R* | Basculer en expressions régulières |
+| *Alt+C* | Basculer en sensibilité à la casse |
+| *Alt+W* | Basculer en correspondance exacte |
+| *Enter* | Trouver suivant |
+| *Shift+Enter* | Trouver précédent |
+| *Alt+Enter* | Trouver tout |
+
+h3. Panneau de recherche dans les fichiers (Ctrl+Shift+F)
+
+| *F4* | Trouver suivant |
+| *Shift+F4* | Trouver précédent |
+
+h3. Panneau de remplacement (Ctrl+H)
+
+| *Ctrl+Alt+Enter* | Remplacer tout |
+
+h2. Diviser l'écran et onglets
+
+| *Alt+Shift+[1,2,3,4]* | [1,2,3,4] colonnes |
+| *Alt+Shift+5* | grille 4 groupes |
+| *Ctrl+[1,2,3,4]* | sélectionner un groupe |
+| *Ctrl+Shift+[1,2,3,4]* | déplacer un fichier dans un groupe |
+| *Ctrl+[1,2,3...]* | sélectionne l'onglet |
+| *Ctrl+Tab* | naviguer à l'onglet suivant |
+| *Ctrl+Shift+Tab* | naviguer à l'onglet précédent |
+
+h2. Favoris
+
+| *Ctrl+F2* | basculer les favoris |
+| *F2* | favoris suivant |
+| *Shift+F2* | favoris précédent |
+| *Ctrl+Shift+F2* | effacer les favoris |
+
+h2. Packages
+
+h3. SideBarEnhancements
+
+| *Ctrl+T* | nouveau fichier | conflit avec "transposer" |
+| *F12* | ouvrir dans le navigateur internet par défaut |
+| *F2* | renommer | conflit avec "favoris suivant" |
